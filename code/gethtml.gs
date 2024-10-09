@@ -1,5 +1,6 @@
 /**
  * Función para extraer el HTML de un correo con la etiqueta y remitente especificado y escribirlo en un documento de Google Docs.
+ * TESTING. Solo para obtener el HTML y analizar para adecuar los regex
  */
 function escribirHTMLdeRemitenteEnDoc() {
   // Configuración de la etiqueta y remitente a utilizar
