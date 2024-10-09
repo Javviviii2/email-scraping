@@ -11,7 +11,7 @@ It's mandatory work in google-suit (Drive and Email)
 2. Create a Google Sheet table to organice info (ex: price, features, url, etc.)
 ![imagen](https://github.com/user-attachments/assets/6eedcbb4-c0b1-48db-89e8-d161d676d6e4)
 4. In Google Sheet go to Apps script and copy the code
-5. Set up a trigger (ex: exejecute the script each hour)
+5. Set up a trigger (ex: execute the script each hour)
 
 
 
