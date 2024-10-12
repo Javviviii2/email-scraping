@@ -3,7 +3,8 @@ function main() {
   // Obtener email de la etiqueta buscar-piso
   var label = GmailApp.getUserLabelByName("buscar-piso");
   var threads = label.getThreads();
-  var sheet = SpreadsheetApp.openById('1muP0wk9GiuO7IGYUrrfOlpjBrRIn5q6TZjUZvyt35Is').getSheetByName('pisos');
+  // Ref: https://stackoverflow.com/questions/36061433/how-do-i-locate-a-google-spreadsheet-id
+  var sheet = SpreadsheetApp.openById('id-del-archivo-sheet').getSheetByName('nombre-de-la-hoja-aqui');
 
 
   var lastEntyRow = getLastEntyRow(sheet, [7,8,9]) // Si columnas 6, 7 u 8 están vacias, entonces poder escribir en esa línea.
